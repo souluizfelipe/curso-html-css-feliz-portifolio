@@ -17,7 +17,7 @@ nav {
     transition: transform 150ms ease-in-out;
 }
 
-#profile-picture:hover {
+#picture-profile:hover {
     transform: scale(1.05);
 }
 
