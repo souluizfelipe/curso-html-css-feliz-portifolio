@@ -14,6 +14,11 @@ nav {
 
 #picture-profile {
     box-shadow: 5px 5px 0px #000;
+    transition: transform 150ms ease-in-out;
+}
+
+#profile-picture:hover {
+    transform: scale(1.05);
 }
 
 a {
@@ -48,7 +53,7 @@ a::before {
     transition: background-color 200ms, transform 150ms ease-in-out;
 }
 
-#button:hover{
+#button:hover {
     background-color: #E6E6E6;
     color: #FFD845;
     transform: scale(1.05);
