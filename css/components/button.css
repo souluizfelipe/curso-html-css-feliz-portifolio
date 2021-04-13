@@ -1,0 +1,22 @@
+.button {
+    display: inline-block;
+    background-color: #FFD845;
+    line-height: 60px;
+    height: 60px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 5px 5px 0px #000;
+    color: #FFF;
+    font-family: 'Roboto Slab', serif;
+    margin-right: 0px;
+    transition: background-color 200ms, transform 150ms ease-in-out;
+    text-decoration: none;
+}
+
+.button:hover {
+    background-color: #E6E6E6;
+    color: #FFD845; 
+    transform: scale(1.05);
+
+}
+
