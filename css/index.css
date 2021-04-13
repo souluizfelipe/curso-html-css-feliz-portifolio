@@ -24,7 +24,7 @@ nav {
 a {
     display: inline-flex;
     align-items: center;
-    color: #fff;
+    color: #FFF;
     font-size: 20px;
     font-family: 'Roboto Slab', serif;
     font-weight: 500;
@@ -40,8 +40,7 @@ a::before {
     margin-right: 10px;
 }
 
-
-#button {
+.button-main-menu {
     display: inline-block;
     background-color: #FFD845;
     line-height: 60px;
@@ -53,10 +52,12 @@ a::before {
     transition: background-color 200ms, transform 150ms ease-in-out;
 }
 
-#button:hover {
+.button-main-menu:hover {
     background-color: #E6E6E6;
-    color: #FFD845;
+    color: #FFD845; 
     transform: scale(1.05);
 
 }
+
+
 
