@@ -1,0 +1,23 @@
+.action {
+    display: inline-flex;
+    align-items: center;
+    color: #FFF;
+    font-size: 20px;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 500;
+    text-decoration: none;
+    margin-right: 30px;
+    transition: transform 150ms;
+}
+
+.action::before {
+    content: "";
+    background-color: #FFD845;
+    width: 10px;
+    height: 10px;    
+    margin-right: 10px;
+}
+
+.action:hover { 
+    transform: scale(1.05);
+}
