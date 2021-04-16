@@ -1,0 +1,16 @@
+.skill-tech {
+    color: #FFF;
+    font-size: 25px;
+    font-family: 'Roboto Slab', serif;
+    display: flex;
+}
+
+.skill-tech .icon {
+    margin-right: 30px;
+}
+
+.skill-tech .right {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
