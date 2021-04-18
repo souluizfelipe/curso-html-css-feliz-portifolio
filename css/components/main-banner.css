@@ -1,4 +1,4 @@
-.banner {
+.main-banner {
     box-sizing: border-box;
     background-image: url(../../assets/img/banner.png) ;
     background-repeat: no-repeat;
@@ -10,23 +10,23 @@
     padding-bottom: 430px;
 }
 
-.banner .wrapper {
+.main-banner .wrapper {
     display: flex;
     flex-direction: column;
     width: 450px;
 }
 
-.banner .box {
+.main-banner .main-box {
     margin-bottom: 50px;
 }
 
-.banner .nav {
+.main-banner .nav {
     display: flex;
     justify-content: space-between;
     
 }
 
-.banner .button {
+.main-banner .main-button {
     width: 160px;
     text-align: center;
     
