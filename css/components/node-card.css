@@ -30,3 +30,12 @@
     background-color: #FFD845;
     border: 5px solid #000;
 }
+
+.node-card.-clean .logo {
+    padding: 0px;
+}
+
+.main-carrousel {
+    display: flex;
+    justify-content: space-around;
+}

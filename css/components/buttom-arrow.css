@@ -5,6 +5,7 @@
     background-color: #FFD845;
     box-shadow: 5px 5px 0px #000;
     cursor: pointer;
+    transition: transform 50ms cubic-bezier(.42,0,.36,1.91);
 }
 
 .button-arrow .content {
@@ -26,3 +27,7 @@
 .button-arrow.-left::before {
     transform: rotate(180deg) translateX(12px); 
 } 
+
+.button-arrow:hover {
+    transform: scale(1.1);
+}
