@@ -14,7 +14,7 @@
 
 .node-card::before {
     content: "";
-    width: 40px;
+    width: 35px;
     border: 2.5px dashed #000;
     transform: rotate(90deg) translateX(-62%);
     position: absolute;
@@ -35,7 +35,3 @@
     padding: 0px;
 }
 
-.main-carrousel {
-    display: flex;
-    justify-content: space-around;
-}
