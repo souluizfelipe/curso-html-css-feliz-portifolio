@@ -16,3 +16,12 @@
     line-height: 100%; 
 }
 
+.main-input.-message {
+    height: 320px;
+    padding: 10px;
+}
+
+.main-input:focus {
+    background-color: #E6E6E6;
+    
+}
