@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="css/components/main-carousel.css">
     <link rel="stylesheet" href="css/components/main-form.css">
     <link rel="stylesheet" href="css/components/main-input.css">
+    <link rel="stylesheet" href="css/components//main-label.css">
     <link rel="stylesheet" href="css/components/main-footer.css">
 </head>
 <body>
@@ -167,19 +168,19 @@
             <h2 class="main-title -second">Contato</h2>
             <form action="" method="get" class="main-form">
                 <div class="main-form">
-                    <label class="label" for="name">Nome</label>
+                    <label class="main-label" for="name">Nome</label>
                     <input type="text" name="name" id="name" class="main-input" required>
                 </div>
                 <div class="main-form">
-                    <label class="label" for="email">E-mail</label>
+                    <label class="main-label" for="email">Email</label>
                     <input type="email" name="email" id="email" class="main-input" required>
                 </div>
                 <div class="main-form">
-                    <label class="label" for="message">Mensagem</label>
-                    <input type="text" name="message" id="message" class="main-input -message" required>
+                    <label class="main-label" for="message">Mensagem</label>
+                    <textarea name="message" id="message" class="main-input -message" required></textarea>
                 </div>
                 <div class="main-form">
-                    <input class="main-button -form" type="button" value="Enviar">
+                    <input class="main-button -form" type="submit" value="Enviar">
                 </div>
             </form>
     </section>
