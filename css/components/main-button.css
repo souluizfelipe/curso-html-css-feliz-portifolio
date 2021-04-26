@@ -21,3 +21,10 @@
 
 }
 
+.main-button.-form {
+    margin-top: 50px;
+    font-size: 30px;
+    padding: 10px 75px;
+    line-height: 100%; 
+}
+
