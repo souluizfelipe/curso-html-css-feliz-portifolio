@@ -16,12 +16,11 @@
     line-height: 100%; 
 }
 
-.main-input.-message {
+.main-input.-textarea {
     height: 320px;
     padding: 10px;
 }
 
 .main-input:focus {
-    background-color: #E6E6E6;
-    
+    background-color: #b3b3b3;
 }
